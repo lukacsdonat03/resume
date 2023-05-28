@@ -146,7 +146,7 @@ export default function CustomizedAccordions() {
              onChange={handleChange("panel4")}
         >
         <AccordionSummary aria-controls="panel4d-content" id="panel4d-header">
-          <Typography>Expreimence</Typography>
+          <Typography>Expreinence</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
