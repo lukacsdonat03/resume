@@ -5,7 +5,6 @@ import MuiAccordion from "@mui/material/Accordion";
 import MuiAccordionSummary from "@mui/material/AccordionSummary";
 import MuiAccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
-import { Link } from "react-router-dom";
 import { Container } from "@mui/material";
 
 const Accordion = styled((props) => (
@@ -155,7 +154,7 @@ export default function CustomizedAccordions() {
             I can mention a project that was necessary for one of my exams. It was a poject work where We need to develop a Restful webapp. 
             This project was a team project although I developed the most of the project (about 90%).
             It is React Express webapp with MySQL database. The topic of the webpage is fitness.
-            You can find this project on <Link to={"https://github.com/lukacsdonat03/EasyEffort"}>Github</Link>.
+            You can find this project on <a href="https://github.com/lukacsdonat03/EasyEffort">Github</a>.
           </Typography>
         </AccordionDetails>
       </Accordion>
